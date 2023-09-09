@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body{
+    min-width: 148px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+header{
+    background-image: linear-gradient( to top, #0066ff, #0C9EE8 );
+    text-align: center;
+    padding: 40px;
+    margin-top: -7.9px;
+    margin-left: -7.6px;
+    margin-right: -7.6px;
+    
+}
+
+a{text-decoration: none;}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+#divulgue{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+    #divulgue:hover{
+      background-color: rgb(0, 162, 255);
+      padding: 20px;
+      border-radius: 0px 20px 0px 20px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    }
+
+#buscar{
+    margin: auto;
+    margin-left: 100px;
+    padding: 5px;
+    transition: 0.5s;
+    border: none;
+}
+
+    #buscar:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    }
+
+#buscarb{
+    margin: auto;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    transition: 0.5s;
+}
+
+    #buscarb:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    }
+
+div{
+    background-color: #0066ff;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    color: white;
+    text-align: center;
+}
+
+    div:hover{
+        border-radius: 0px 20px 0px 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+    }
+
+#div_dentro{
+    background-color: #0C9EE8;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.199);
+    cursor: pointer;
+}
+
+    #div_dentro:hover{
+        border-radius: 0px 20px 0px 20px;
+    }
+
+#cadastro{
+    background-color: #0C9EE8;
+}
+
+    #nome_empresa{
+        margin-bottom:5px ;
+    }
+
+    #link_redesocial{
+        margin-bottom:5px ;
+    }
+
+    #email_cadastro{
+        margin-bottom:5px ;
+    }
+
+    #numero_cadastro{
+        margin-bottom:5px ;
+    }
+
+    #descrição{
+        margin-bottom:5px ;
+    }
+    
+    #imagem_cadastro{
+        margin-bottom:5px ;
+    }
+
+#enviar_cadastro{
+    transition: 0.5s;
+    height: 23px; 
+    width: 75px;
+    cursor: pointer;
+}
+        #enviar_cadastro:hover{
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+            width: 80px;
+            height: 30px;
+            background-color: rgb(37, 121, 37);
+            color: white;
+        }
+
+footer{
+    background-image: linear-gradient( to bottom, #0066ff, #0C9EE8 );
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
